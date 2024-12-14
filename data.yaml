@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Bishop', 'King', 'Knight', 'Pawn', 'Queen', 'Rook']
+
+roboflow:
+  workspace: sae-wydri
+  project: saechess
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sae-wydri/saechess/dataset/2
